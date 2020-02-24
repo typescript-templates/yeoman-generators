@@ -1,5 +1,5 @@
 {
-  "version": "3.1.0",
+  "version": "0.0.1",
   "name": "dotup-typescript-yeoman-generators",
   "author": {
     "name": "Peter Ullrich",
@@ -49,7 +49,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dotupNET/dotup-typescript-yeoman-generators.git"
+    "url": "git+https://github.com/typescript-templates/yeoman-generators.git"
   },
   "keywords": [
     "yeoman",
@@ -58,7 +58,7 @@
     "yeoman-generator"
   ],
   "bugs": {
-    "url": "https://github.com/dotupNET/dotup-typescript-yeoman-generators/issues"
+    "url": "https://github.com/typescript-templates/yeoman-generators/issues"
   },
-  "homepage": "https://github.com/dotupNET/dotup-typescript-yeoman-generators#readme"
+  "homepage": "https://github.com/typescript-templates/yeoman-generators#readme"
 }

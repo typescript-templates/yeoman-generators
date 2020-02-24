@@ -1,6 +1,6 @@
 {
   "name": "generator-dotup-gulp",
-  "version": "3.3.0",
+  "version": "0.0.1",
   "description": "Yeoman generator to add gulp tools to your project.",
   "main": "generators/app/index.js",
   "types": "generators/app/index.d.ts",
@@ -14,12 +14,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dotupNET/generator-dotup-gulp.git"
+    "url": "git+https://github.com/typescript-templates/yeoman-generators.git"
   },
   "bugs": {
-    "url": "https://github.com/dotupNET/generator-dotup-gulp/issues"
+    "url": "https://github.com/typescript-templates/yeoman-generators/issues"
   },
-  "homepage": "https://github.com/dotupNET/generator-dotup-gulp#readme",
+  "homepage": "https://github.com/typescript-templates/yeoman-generators#readme",
   "scripts": {
     "postpublish": "git tag -a v%npm_package_version% -m \"Release v%npm_package_version%\" && git push origin --tags",
     "commit-release": "git commit -a -m \"Release v%npm_package_version%\" && git push && git tag -a v%npm_package_version% -m \"Release v%npm_package_version%\" && git push origin --tags",

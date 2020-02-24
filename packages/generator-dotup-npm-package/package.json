@@ -1,5 +1,5 @@
 {
-  "version": "3.3.0",
+  "version": "0.0.1",
   "name": "generator-dotup-npm-package",
   "author": {
     "name": "Peter Ullrich",
@@ -61,10 +61,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dotupNET/generator-dotup-npm-package.git"
+    "url": "git+https://github.com/typescript-templates/yeoman-generators.git"
   },
   "bugs": {
-    "url": "https://github.com/dotupNET/generator-dotup-npm-package/issues"
+    "url": "https://github.com/typescript-templates/yeoman-generators/issues"
   },
-  "homepage": "https://github.com/dotupNET/generator-dotup-npm-package#readme"
+  "homepage": "https://github.com/typescript-templates/yeoman-generators#readme"
 }

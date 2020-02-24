@@ -1,5 +1,5 @@
 {
-  "version": "3.3.0",
+  "version": "0.0.1",
   "name": "generator-dotup-github",
   "description": "Yeoman generator for github. Creates repository and npm scripts to tag after publishing.",
   "author": {
@@ -65,10 +65,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dotupNET/generator-dotup-github.git"
+    "url": "git+https://github.com/typescript-templates/yeoman-generatorshub.git"
   },
   "bugs": {
-    "url": "https://github.com/dotupNET/generator-dotup-github/issues"
+    "url": "https://github.com/typescript-templates/yeoman-generatorshub/issues"
   },
-  "homepage": "https://github.com/dotupNET/generator-dotup-github#readme"
+  "homepage": "https://github.com/typescript-templates/yeoman-generatorshub#readme"
 }

@@ -31,7 +31,7 @@ yo dotup-github
 
 ## License
 
-MIT © [Peter Ullrich](https://github.com/dotupNET/)
+MIT © [Peter Ullrich](https://github.com/typescript-templates/)
 
 
 [npm-image]: https://badge.fury.io/js/generator-dotup-github.svg
