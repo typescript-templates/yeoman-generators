@@ -1,6 +1,6 @@
 {
   "name": "@typescript-templates/generator-dotup-gulp",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Yeoman generator to add gulp tools to your project.",
   "main": "generators/app/index.js",
   "types": "generators/app/index.d.ts",

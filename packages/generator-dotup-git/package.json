@@ -1,5 +1,5 @@
 {
-  "version": "0.0.2",
+  "version": "0.0.3",
   "name": "@typescript-templates/generator-dotup-git",
   "author": {
     "name": "Peter Ullrich",
