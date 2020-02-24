@@ -1,0 +1,115 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "name": "Launch Program",
+      "program": "${workspaceFolder}/<%= sourcePath %>/sample.ts",
+      "outFiles": [
+        "${workspaceFolder}/<%= targetPath %>/*.js"
+      ],
+      "skipFiles": [
+        "<node_internals>/**/*.js"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Jest Current File",
+      "cwd": "${workspaceFolder}",
+      "program": "${workspaceFolder}/node_modules/.bin/jest",
+      "args": [
+        "${fileBasenameNoExtension}",
+        "--config",
+        "${workspaceFolder}/jest.config.js",
+        "--runInBand",
+      ],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "disableOptimisticBPs": true,
+      "outFiles": [
+        "${workspaceFolder}/dist/**/*"
+      ]
+    },
+    {
+      "name": "Current TS File",
+      "type": "node",
+      "request": "launch",
+      "envFile": "${workspaceFolder}/.env",
+      "args": [
+        "${file}"
+      ],
+      "runtimeArgs": [
+        "--nolazy",
+        "-r",
+        "ts-node/register"
+      ],
+      "stopOnEntry": false,
+      "sourceMaps": true,
+      "cwd": "${fileDirname}",
+      "protocol": "inspector"
+    },
+    {
+      "name": "Current JS File",
+      "type": "node",
+      "request": "launch",
+      "program": "${file}",
+      "stopOnEntry": false,
+      "args": [],
+      "cwd": "${fileDirname}",
+      "runtimeExecutable": null,
+      "runtimeArgs": [
+        "--nolazy"
+      ],
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "console": "internalConsole",
+      "sourceMaps": false
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Current Jasmine File",
+      "cwd": "${fileDirname}",
+      "program": "${workspaceFolder}/node_modules/jasmine-ts/lib/index",
+      "args": [
+        "${file}"
+      ],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    },
+    {
+      "name": "Current Mocha File",
+      "type": "node",
+      "protocol": "inspector",
+      "request": "launch",
+      "cwd": "${fileDirname}",
+      "program": "${workspaceRoot}/node_modules/mocha/bin/_mocha",
+      "stopOnEntry": false,
+      "args": [
+        "--require",
+        "ts-node/register",
+        "--no-timeouts",
+        "${file}"
+      ]
+    },
+    {
+      "name": "Debug Gulp",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceRoot}/node_modules/gulp/bin/gulp.js",
+      "stopOnEntry": false,
+      "args": [],
+      "cwd": "${fileDirname}",
+      "runtimeArgs": [
+        "--nolazy"
+      ],
+      "console": "internalConsole"
+    }
+  ]
+}

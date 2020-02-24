@@ -1,0 +1,20 @@
+{
+  "generator-dotup-typescript": {
+    "promptValues": {
+      "projectType": "ts_yo_generator",
+      "userName": "Peter Ullrich",
+      "userEmail": "dotup.software@gmail.com",
+      "useGit": true
+    }
+  },
+  "generator-dotup-git": {
+    "promptValues": {
+      "useGithub": true
+    }
+  },
+  "generator-dotup-github": {
+    "promptValues": {
+      "githubUserName": "dotupNET"
+    }
+  }
+}

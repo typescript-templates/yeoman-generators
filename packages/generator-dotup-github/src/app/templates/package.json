@@ -1,0 +1,10 @@
+{
+  "repository": {
+    "type": "git",
+    "url": "git+<%= githubUrl %>.git"
+  },
+  "bugs": {
+    "url": "<%= githubUrl %>/issues"
+  },
+  "homepage": "<%= githubUrl %>#readme"
+}

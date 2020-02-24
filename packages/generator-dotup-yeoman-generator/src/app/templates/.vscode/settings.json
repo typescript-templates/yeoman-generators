@@ -1,0 +1,6 @@
+{
+  "npm.exclude": [
+    "generators/",
+    "src/**/templates/"
+  ]
+}

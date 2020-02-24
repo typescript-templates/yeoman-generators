@@ -1,0 +1,28 @@
+{
+	"folders": [
+    {
+      "path": "generator-dotup-typescript"
+    },
+    {
+      "path": "dotup-typescript-yeoman-generators"
+    },
+    {
+      "path": "generator-dotup-git"
+    },
+    {
+      "path": "generator-dotup-github"
+    },
+    {
+      "path": "generator-dotup-npm-package"
+    },
+    {
+      "path": "generator-dotup-yeoman-generator"
+    },
+    {
+      "path": "generator-dotup-gulp"
+    }
+  ],
+  "settings": {
+    "typescript.tsdk": "node_modules\\typescript\\lib"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  // See http://go.microsoft.com/fwlink/?LinkId=827846
+  // for the documentation about the extensions.json format
+  "recommendations": [
+    "aaron-bond.better-comments",
+    "dbaeumer.vscode-eslint",
+    "dotup.dotup-vscode-interface-generator",
+    "dotup.dotup-vscode-test-generator",
+    "dotup.dotup-vscode-diagnostics-search",
+    "eamodio.gitlens",
+    "maty.vscode-mocha-sidebar",
+    "vscode-icons-team.vscode-icons",
+    "gruntfuggly.todo-tree",
+  ]
+}

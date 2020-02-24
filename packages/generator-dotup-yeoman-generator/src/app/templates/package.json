@@ -1,0 +1,25 @@
+{
+  "main": "generators/app/index.js",
+  "types": "generators/app/index.d.ts",
+  "keywords": [
+    "yeoman",
+    "generator"
+  ],
+  "dependencies": {
+    "dotup-typescript-yeoman-generators": "^0.1.1",
+    "yeoman-generator": "^3.2.0",
+    "chalk": "^2.4.2",
+    "yosay": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/yeoman-generator": "^3.1.1",
+    "yeoman-test": "^1.9.1",
+    "yeoman-assert": "^3.1.1",
+    "cross-spawn": "^6.0.5"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "templates"
+    ]
+  }
+}

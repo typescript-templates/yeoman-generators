@@ -1,0 +1,20 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "src/**/*.tsx",
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/spec",
+    "**/test",
+    "**/dist",
+    "**/src/**/*.test.ts",
+    "**/src/**/*.spec.ts"
+  ],
+  "compilerOptions": {
+    // "module": "ES6",
+    "outDir": "dist", /* Redirect output structure to the directory. */
+    "rootDir": "src" /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
+  }
+}

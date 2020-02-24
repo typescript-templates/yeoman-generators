@@ -1,0 +1,8 @@
+{
+  "exclude": [
+    "src/**/templates/**/*.ts"
+  ],
+  "compilerOptions": {
+    "outDir": "generators"
+  }
+}
