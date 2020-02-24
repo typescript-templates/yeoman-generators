@@ -1,5 +1,5 @@
 import { Nested, TypeSaveProperty } from 'dotup-ts-types';
-import { BaseGenerator, ConfirmQuestion, GeneratorOptions, InquirerQuestionType, OptionalQuestion, ProjectType, Question, StoreQuestion, SharedOptions } from 'dotup-typescript-yeoman-generators';
+import { BaseGenerator, ConfirmQuestion, GeneratorOptions, InquirerQuestionType, OptionalQuestion, ProjectType, Question, StoreQuestion, SharedOptions } from "@typescript-templates/typescript-yeoman-generators";
 import validateNpmPackageNameTyped from 'validate-npm-package-name-typed';
 import { TypescriptAppGenerator } from '../ts-app/TypescriptAppGenerator';
 import { TypescriptLibGenerator } from '../ts-lib/TypescriptLibGenerator';

@@ -6,6 +6,7 @@
     "email": "dotup.software@gmail.com"
   },
   "scripts": {
+    "clean-dist": "rimraf dist",
     "build": "tsc",
     "test": "node node_modules/mocha/bin/mocha --require ts-node/register test/*.test.ts --reporter spec",
     "postpublish": "git tag -a v%npm_package_version% -m \"Release v%npm_package_version%\" && git push origin --tags",
@@ -23,7 +24,6 @@
   },
   "dependencies": {
     "chalk": "^2.4.2",
-    "dotup-ts-types": "^0.0.19",
     "inquirer": "^6.2.2",
     "npm-registry-api": "^0.0.2",
     "rxjs": "6.5.4",
@@ -34,11 +34,13 @@
     "@types/chai": "^4.1.7",
     "@types/lodash": "^4.14.123",
     "@types/mocha": "^5.2.6",
+    "@types/shelljs": "^0.8.6",
     "@types/through": "0.0.29",
     "@types/yeoman-generator": "3.1.1",
     "chai": "^4.2.0",
     "cross-spawn": "^7.0.1",
     "del": "^4.0.0",
+    "dotup-ts-types": "^0.0.19",
     "gh-pages": "^2.0.1",
     "gulp": "^4.0.0",
     "gulp-gh-pages": "^0.5.4",
@@ -49,6 +51,8 @@
     "gulp-typescript": "^5.0.1",
     "merge2": "^1.2.3",
     "mocha": "^6.0.2",
+    "rimraf": "^3.0.2",
+    "shelljs": "^0.8.3",
     "ts-node": "^8.0.3",
     "tslint": "^5.14.0",
     "tslint-microsoft-contrib": "^6.1.0",

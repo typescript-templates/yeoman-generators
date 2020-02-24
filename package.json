@@ -43,6 +43,10 @@
   },
   "homepage": "https://github.com/typescript-templates/yeoman-generators#readme",
   "devDependencies": {
-    "cross-spawn": "^7.0.1"
+    "@types/shelljs": "^0.8.6",
+    "cross-spawn": "^7.0.1",
+    "dotup-ts-types": "^0.3.3",
+    "rimraf": "^3.0.2",
+    "shelljs": "^0.8.3"
   }
 }

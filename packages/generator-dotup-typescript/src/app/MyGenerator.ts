@@ -1,4 +1,4 @@
-import { BaseGenerator, GeneratorOptions, SharedOptions, Question, InquirerQuestionType, StoreQuestion, ConfirmQuestion, ITypedProperty } from 'dotup-typescript-yeoman-generators';
+import { BaseGenerator, GeneratorOptions, SharedOptions, Question, InquirerQuestionType, StoreQuestion, ConfirmQuestion, ITypedProperty } from "@typescript-templates/typescript-yeoman-generators";
 import _ from 'lodash';
 import { TypescriptGenerator } from '../ts/TypescriptGenerator';
 import validateNpmPackageNameTyped from 'validate-npm-package-name-typed';

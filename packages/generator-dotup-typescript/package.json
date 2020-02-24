@@ -1,33 +1,48 @@
 {
   "version": "0.0.1",
-  "name": "@typescript-templates/generator-dotup-git",
-  "author": {
-    "name": "Peter Ullrich",
-    "email": "dotup.software@gmail.com"
-  },
   "scripts": {
     "clean-dist": "rimraf generators",
     "copy-static-assets": "ts-node copyStaticAssets.ts",
-    "postpublish": "git tag -a v%npm_package_version% -m \"Release v%npm_package_version%\" && git push origin --tags",
-    "commit-release": "git commit -a -m \"Release v%npm_package_version%\" && git push && git tag -a v%npm_package_version% -m \"Release v%npm_package_version%\" && git push origin --tags",
     "build": "tsc",
     "test": "node node_modules/mocha/bin/mocha --require ts-node/register test/*.test.ts --reporter spec",
     "docs": "typedoc --mode file --out docs src --exclude \"**/*+(index|.spec|.test|.e2e).ts\"",
     "gh-pages": "rimraf docs && npm run docs && gh-pages -d docs",
-    "npm-publish": "npm publish"
+    "npm-publish": "npm publish",
+    "npm-publish-dry": "npm publish --dry-run",
+    "postpublish": "git tag -a v%npm_package_version% -m \"Release v%npm_package_version%\" && git push origin --tags",
+    "commit-release": "git commit -a -m \"Release v%npm_package_version%\" && git push && git tag -a v%npm_package_version% -m \"Release v%npm_package_version%\" && git push origin --tags"
   },
+  "name": "@typescript-templates/generator-dotup-typescript",
+  "author": {
+    "name": "Peter Ullrich",
+    "email": "dotup.software@gmail.com"
+  },
+  "description": "Generator for typescript apps and libraries. With Gulp, Mocha, TS-Lint, typedoc, gh-pages, git and github. Creates a github repository for you. During the generation of your project, each packge is updated to the lasts version.",
+  "main": "generators/app/index.js",
+  "types": "generators/app/index.d.ts",
   "keywords": [
     "yeoman",
-    "generator",
     "typescript",
+    "generator",
+    "test",
+    "gulp",
+    "mocha",
+    "ts-lint",
+    "typedoc",
+    "gh-pages",
     "git",
-    "git init",
-    "git add"
+    "github",
+    "yeoman-generator"
   ],
   "dependencies": {
+    "@typescript-templates/generator-dotup-git": "workspace:^0.0.1",
+    "@typescript-templates/generator-dotup-github": "workspace:^0.0.1",
+    "@typescript-templates/generator-dotup-gulp": "workspace:^0.0.1",
+    "@typescript-templates/generator-dotup-npm-package": "workspace:^0.0.1",
     "@typescript-templates/typescript-yeoman-generators": "workspace:^0.0.1",
     "chalk": "^2.4.2",
-    "dotup-ts-github-api": "^0.1.3",
+    "lodash": "4.17.15",
+    "validate-npm-package-name-typed": "^3.0.1",
     "yeoman-generator": "^3.2.0",
     "yosay": "^2.0.2"
   },
@@ -37,9 +52,9 @@
     "@types/shelljs": "^0.8.6",
     "@types/yeoman-generator": "3.1.1",
     "chai": "^4.2.0",
-    "cross-spawn": "^7.0.1",
-    "del": "^4.0.0",
-    "dotup-ts-types": "^0.3.3",
+    "cross-spawn": "^6.0.5",
+    "del": "^4.1.0",
+    "dotup-ts-git-wrapper": "^1.0.0",
     "gh-pages": "^2.0.1",
     "gulp": "^4.0.0",
     "gulp-gh-pages": "^0.5.4",
@@ -49,14 +64,14 @@
     "gulp-typedoc": "^2.2.2",
     "gulp-typescript": "^5.0.1",
     "merge2": "^1.2.3",
-    "mocha": "^6.0.2",
+    "mocha": "^6.1.3",
     "rimraf": "^3.0.2",
     "shelljs": "^0.8.3",
     "ts-node": "^8.0.3",
-    "tslint": "^5.14.0",
+    "tslint": "^5.15.0",
     "tslint-microsoft-contrib": "^6.1.0",
     "typedoc": "^0.14.2",
-    "typescript": "^3.3.4000",
+    "typescript": "^3.4.3",
     "yeoman-assert": "^3.1.1",
     "yeoman-test": "^1.9.1"
   },
@@ -65,9 +80,6 @@
       "templates"
     ]
   },
-  "description": "Yeoman generator to initialize git repository.",
-  "main": "generators/app/index.js",
-  "types": "generators/app/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/typescript-templates/yeoman-generators.git"

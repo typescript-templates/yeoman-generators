@@ -25,10 +25,12 @@
   "devDependencies": {
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.6",
+    "@types/shelljs": "^0.8.6",
     "@types/yeoman-generator": "3.1.1",
     "chai": "^4.2.0",
     "cross-spawn": "^6.0.5",
     "del": "^4.0.0",
+    "dotup-ts-types": "^0.3.3",
     "gh-pages": "^2.0.1",
     "gulp": "^4.0.0",
     "gulp-gh-pages": "^0.5.4",
@@ -39,6 +41,8 @@
     "gulp-typescript": "^5.0.1",
     "merge2": "^1.2.3",
     "mocha": "^6.0.2",
+    "rimraf": "^3.0.2",
+    "shelljs": "^0.8.3",
     "ts-node": "^8.0.3",
     "tslint": "^5.14.0",
     "tslint-microsoft-contrib": "^6.1.0",
@@ -53,6 +57,8 @@
     ]
   },
   "scripts": {
+    "clean-dist": "rimraf generators",
+    "copy-static-assets": "ts-node copyStaticAssets.ts",
     "build": "tsc",
     "test": "node node_modules/mocha/bin/mocha --require ts-node/register test/*.test.ts --reporter spec",
     "docs": "typedoc --mode file --out docs src --exclude \"**/*+(index|.spec|.test|.e2e).ts\"",

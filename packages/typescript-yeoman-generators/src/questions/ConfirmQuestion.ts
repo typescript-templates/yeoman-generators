@@ -1,4 +1,4 @@
-import { InquirerQuestionType } from '..';
+import { InquirerQuestionType } from '../../src';
 import { Question } from './Question';
 export class ConfirmQuestion<T> extends Question<T> {
   constructor(name: string, message: string, store: boolean = true) {

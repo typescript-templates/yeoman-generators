@@ -1,4 +1,4 @@
-import { BaseGenerator, GeneratorOptions, SharedOptions, Question, InquirerQuestionType, IProperty, ProjectType, ConfirmQuestion, StoreQuestion } from 'dotup-typescript-yeoman-generators';
+import { BaseGenerator, GeneratorOptions, SharedOptions, Question, InquirerQuestionType, IProperty, ProjectType, ConfirmQuestion, StoreQuestion } from "@typescript-templates/typescript-yeoman-generators";
 import _ from 'lodash';
 import { TypescriptQuestions } from 'generator-dotup-typescript/generators/ts/TypescriptQuestions';
 import { GulpQuestions } from 'generator-dotup-gulp/generators/app/GulpGenerator';

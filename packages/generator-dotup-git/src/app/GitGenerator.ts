@@ -1,6 +1,6 @@
 import { GitConfig } from 'dotup-ts-github-api';
 import { Nested, TypeSaveProperty } from 'dotup-ts-types';
-import { BaseGenerator, GeneratorOptions } from 'dotup-typescript-yeoman-generators';
+import { BaseGenerator, GeneratorOptions } from "@typescript-templates/typescript-yeoman-generators";
 
 type PartialQuestions = Partial<TypeSaveProperty<Nested<string, string>>>;
 

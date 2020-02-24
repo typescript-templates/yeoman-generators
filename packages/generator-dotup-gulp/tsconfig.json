@@ -21,7 +21,7 @@
     ],
     "declaration": true,
     "sourceMap": true,
-    "outDir": "dist",
+    "outDir": "generators",
     "rootDir": "src",
     "strict": false,
     "noImplicitAny": true,

@@ -1,4 +1,4 @@
-import { BaseGenerator, ConfirmQuestion, GeneratorOptions, InquirerQuestionType, StoreQuestion } from 'dotup-typescript-yeoman-generators';
+import { BaseGenerator, ConfirmQuestion, GeneratorOptions, InquirerQuestionType, StoreQuestion } from "@typescript-templates/typescript-yeoman-generators";
 
 export enum MyGeneratorQuestions {
   yourName = 'yourName',

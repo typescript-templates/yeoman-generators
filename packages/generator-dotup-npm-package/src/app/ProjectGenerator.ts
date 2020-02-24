@@ -1,6 +1,6 @@
 // tslint:disable-next-line: max-line-length
 import { Nested, TypeSaveProperty } from 'dotup-ts-types';
-import { BaseGenerator, GeneratorOptions, InputQuestion, InquirerQuestionType, Question } from 'dotup-typescript-yeoman-generators';
+import { BaseGenerator, GeneratorOptions, InputQuestion, InquirerQuestionType, Question } from "@typescript-templates/typescript-yeoman-generators";
 import validateNpmPackageNameTyped from 'validate-npm-package-name-typed';
 import { ProjectQuestions } from './ProjectQuestions';
 
