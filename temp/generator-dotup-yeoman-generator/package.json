@@ -1,6 +1,6 @@
 {
   "version": "0.0.1",
-  "name": "generator-dotup-yeoman-generator",
+  "name": "@typescript-templates/generator-dotup-yeoman-generator",
   "author": {
     "name": "Peter Ullrich",
     "email": "dotup.software@gmail.com"

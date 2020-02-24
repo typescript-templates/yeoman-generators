@@ -1,6 +1,6 @@
 {
   "version": "0.0.1",
-  "name": "generator-dotup-typescript",
+  "name": "@typescript-templates/generator-dotup-typescript",
   "author": {
     "name": "Peter Ullrich",
     "email": "dotup.software@gmail.com"

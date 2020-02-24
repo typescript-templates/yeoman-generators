@@ -41,5 +41,8 @@
   "bugs": {
     "url": "https://github.com/typescript-templates/yeoman-generators/issues"
   },
-  "homepage": "https://github.com/typescript-templates/yeoman-generators#readme"
+  "homepage": "https://github.com/typescript-templates/yeoman-generators#readme",
+  "devDependencies": {
+    "cross-spawn": "^7.0.1"
+  }
 }
