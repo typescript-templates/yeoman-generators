@@ -1,5 +1,5 @@
 {
-  "version": "0.0.3",
+  "version": "0.0.4",
   "name": "@typescript-templates/generator-dotup-yeoman-generator",
   "author": {
     "name": "Peter Ullrich",

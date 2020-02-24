@@ -1,5 +1,5 @@
 {
-  "version": "0.0.3",
+  "version": "0.0.4",
   "scripts": {
     "clean-dist": "rimraf generators",
     "copy-static-assets": "ts-node copyStaticAssets.ts",
