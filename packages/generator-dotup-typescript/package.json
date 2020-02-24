@@ -9,7 +9,7 @@
     "gh-pages": "rimraf docs && npm run docs && gh-pages -d docs",
     "npm-publish": "npm publish",
     "npm-publish-dry": "npm publish --dry-run",
-    "postpublish": "git tag -a v%npm_package_version% -m \"Release v%npm_package_version%\" && git push origin --tags",
+    "postpublish-": "git tag -a v%npm_package_version% -m \"Release v%npm_package_version%\" && git push origin --tags",
     "commit-release": "git commit -a -m \"Release v%npm_package_version%\" && git push && git tag -a v%npm_package_version% -m \"Release v%npm_package_version%\" && git push origin --tags"
   },
   "name": "@typescript-templates/generator-dotup-typescript",
