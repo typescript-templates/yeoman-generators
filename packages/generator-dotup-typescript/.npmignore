@@ -32,3 +32,8 @@ gulpfile.js
 !generators/ts-app/templates/*
 !generators/ts-lib/templates/*
 !generators/*/templates/**/*
+node_modules
+!generators/**/templates/*
+!generators/**/templates/**/*
+!**/generators/**/templates/*
+!**/generators/**/templates/**/*

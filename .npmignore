@@ -29,5 +29,8 @@ copyStaticAssets.ts
 rollup.config.js
 .mocharc.json
 .eslint*
+node_modules
 !generators/**/templates/*
 !generators/**/templates/**/*
+!**/generators/**/templates/*
+!**/generators/**/templates/**/*

@@ -1,52 +1,52 @@
 {
-	"name": "@typescript-templates/yeoman-generators",
-	"version": "1.0.0",
-	"description": "",
-	"scripts": {
-		"all-clean-dist": "pnpm recursive run clean-dist",
-		"all-build": "pnpm recursive run build",
-		"all-build-ts": "pnpm recursive run build-ts",
-		"all-build-r": "pnpm recursive run build-r",
-		"all-test": "pnpm recursive run test",
-		"all-lint": "pnpm recursive run lint",
-		"all-docs": "pnpm recursive run docs",
-		"all-gh-pages": "pnpm recursive run gh-pages",
-		"all-npm-publish": "pnpm recursive publish",
-		"all-copy-static-assets": "pnpm recursive run copy-static-assets",
-		"all-debug": "npm run build && npm run watch-debug",
-		"all-serve": "pnpm recursive run serve",
-		"all-start": "pnpm recursive run start",
-		"all-serve-debug": "pnpm recursive run serve-debug",
-		"all-watch": "pnpm recursive run watch",
-		"all-watch-node": "pnpm recursive run watch-node",
-		"all-watch-test": "pnpm recursive run watch-test",
-		"all-watch-ts": "pnpm recursive run watch-ts",
-		"all-watch-debug": "pnpm recursive run watch-debug",
-		"all-watch-debug-nodemon": "pnpm recursive run watch-debug-nodemon"
-	},
-	"author": "Peter Ullrich <dotup.software@gmail.com> (https://github.com/dotupNET)",
-	"license": "AGPL-3.0-only",
-	"publishConfig": {
-		"access": "public"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/typescript-templates/yeoman-generators.git"
-	},
-	"keywords": [
-		"typescript",
-		"yeoman",
-		"generators"
-	],
-	"bugs": {
-		"url": "https://github.com/typescript-templates/yeoman-generators/issues"
-	},
-	"homepage": "https://github.com/typescript-templates/yeoman-generators#readme",
-	"devDependencies": {
-		"@types/shelljs": "^0.8.6",
-		"cross-spawn": "^7.0.1",
-		"dotup-ts-types": "^0.3.3",
-		"rimraf": "^3.0.2",
-		"shelljs": "^0.8.3"
-	}
+  "name": "@typescript-templates/yeoman-generators",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "all-clean-dist": "pnpm recursive run clean-dist",
+    "all-build": "pnpm recursive run build",
+    "all-build-ts": "pnpm recursive run build-ts",
+    "all-build-r": "pnpm recursive run build-r",
+    "all-test": "pnpm recursive run test",
+    "all-lint": "pnpm recursive run lint",
+    "all-docs": "pnpm recursive run docs",
+    "all-gh-pages": "pnpm recursive run gh-pages",
+    "all-npm-publish": "pnpm recursive publish",
+    "all-copy-static-assets": "pnpm recursive run copy-static-assets",
+    "all-debug": "npm run build && npm run watch-debug",
+    "all-serve": "pnpm recursive run serve",
+    "all-start": "pnpm recursive run start",
+    "all-serve-debug": "pnpm recursive run serve-debug",
+    "all-watch": "pnpm recursive run watch",
+    "all-watch-node": "pnpm recursive run watch-node",
+    "all-watch-test": "pnpm recursive run watch-test",
+    "all-watch-ts": "pnpm recursive run watch-ts",
+    "all-watch-debug": "pnpm recursive run watch-debug",
+    "all-watch-debug-nodemon": "pnpm recursive run watch-debug-nodemon"
+  },
+  "author": "Peter Ullrich <dotup.software@gmail.com> (https://github.com/dotupNET)",
+  "license": "AGPL-3.0-only",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/typescript-templates/yeoman-generators.git"
+  },
+  "keywords": [
+    "typescript",
+    "yeoman",
+    "generators"
+  ],
+  "bugs": {
+    "url": "https://github.com/typescript-templates/yeoman-generators/issues"
+  },
+  "homepage": "https://github.com/typescript-templates/yeoman-generators#readme",
+  "devDependencies": {
+    "@types/shelljs": "^0.8.6",
+    "cross-spawn": "^7.0.1",
+    "dotup-ts-types": "^0.3.3",
+    "rimraf": "^3.0.2",
+    "shelljs": "^0.8.3"
+  }
 }
