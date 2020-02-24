@@ -24,7 +24,8 @@ gulpfile.config.js
 gulpfile.js
 .yo-rc-json
 .eslintrc.json
-node_modules
+**/node_modules/
+node_modules/
 !generators/**/templates/*
 !generators/**/templates/**/*
 !**/generators/**/templates/*
