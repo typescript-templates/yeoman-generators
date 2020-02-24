@@ -75,5 +75,9 @@
   "bugs": {
     "url": "https://github.com/typescript-templates/yeoman-generatorshub/issues"
   },
-  "homepage": "https://github.com/typescript-templates/yeoman-generatorshub#readme"
+  "homepage": "https://github.com/typescript-templates/yeoman-generatorshub#readme",
+  "license": "AGPL-3.0-only",
+  "publishConfig": {
+    "access": "public"
+  }
 }
