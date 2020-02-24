@@ -17,6 +17,10 @@
   "description": "Helper to write yeoman generators in typescript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "license": "AGPL-3.0-only",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "chalk": "^2.4.2",
     "dotup-ts-types": "^0.0.19",
